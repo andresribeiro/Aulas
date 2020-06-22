@@ -1,11 +1,11 @@
 import React from 'react'
-import { View, Text, StyleSheet, ScrollView, SafeAreaView, Dimensions } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, SafeAreaView } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
 
 export default function Sexta() {
   return(
     <SafeAreaView>
-      <ScrollView styles={styles.scrollView}>
+      <ScrollView>
         <View style={styles.container} >
           <Text style={styles.dayText}>Sexta-feira</Text>
           <RectButton style={styles.lesson}>
@@ -47,9 +47,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#F0F0F5',
     marginTop: 25,
     marginBottom: 20,
-  },
-  scrollView: {
-    height: Dimensions.get('window').height,
   },
   dayText: {
     color: '#7159C1',

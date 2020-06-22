@@ -12,19 +12,19 @@ export default function All() {
     <View style={styles.container} >
     <MaterialIcons name="today" size={65} color="#7159C1" />
       <RectButton style={styles.day} onPress={() => {navigation.navigate('Segunda')}} >
-        <Text style={styles.dayText}>Segunda-feira</Text>
+        <Text style={styles.dayText}>Segunda</Text>
       </RectButton>
       <RectButton style={styles.day} onPress={() => {navigation.navigate('Terca')}} >
-        <Text style={styles.dayText}>Terça-feira</Text>
+        <Text style={styles.dayText}>Terça</Text>
       </RectButton>
       <RectButton style={styles.day} onPress={() => {navigation.navigate('Quarta')}} >
-        <Text style={styles.dayText}>Quarta-feira</Text>
+        <Text style={styles.dayText}>Quarta</Text>
       </RectButton>
       <RectButton style={styles.day} onPress={() => {navigation.navigate('Quinta')}} >
-        <Text style={styles.dayText}>Quinta-feira</Text>
+        <Text style={styles.dayText}>Quinta</Text>
       </RectButton>
       <RectButton style={styles.day} onPress={() => {navigation.navigate('Sexta')}} >
-        <Text style={styles.dayText}>Sexta-feira</Text>
+        <Text style={styles.dayText}>Sexta</Text>
       </RectButton>
     </View>
   )
