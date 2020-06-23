@@ -45,7 +45,7 @@ export default function Terca() {
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Informática Básica</Text>
-            <Text style={styles.lessonDate}>15:45 - 16:30</Text>
+            <Text style={styles.lessonDate}>15:00 - 15:45</Text>
             <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
         </View>
