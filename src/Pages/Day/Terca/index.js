@@ -7,7 +7,7 @@ export default function Terca() {
     <SafeAreaView>
       <ScrollView>
         <View style={styles.container} >
-          <Text style={styles.dayText}>Terca-feira</Text>
+          <Text style={styles.dayText}>Terça-feira</Text>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Geografia</Text>
             <Text style={styles.lessonDate}>08:00 - 08:45</Text>
