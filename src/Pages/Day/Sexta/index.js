@@ -11,22 +11,22 @@ export default function Sexta() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Biologia</Text>
             <Text style={styles.lessonDate}>08:00 - 08:45</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Biologia</Text>
             <Text style={styles.lessonDate}>08:45 - 09:30</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Educação Física</Text>
             <Text style={styles.lessonDate}>09:50 - 10:35</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Educação Física</Text>
             <Text style={styles.lessonDate}>10:35 - 11:20</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Física</Text>

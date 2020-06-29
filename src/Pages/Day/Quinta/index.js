@@ -21,7 +21,7 @@ export default function Quinta() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Sociologia</Text>
             <Text style={styles.lessonDate}>09:50 - 10:35</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Fund. e Man. de Computadores</Text>
@@ -36,12 +36,12 @@ export default function Quinta() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>História</Text>
             <Text style={styles.lessonDate}>13:15 - 14:00</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>História</Text>
             <Text style={styles.lessonDate}>14:00 - 14:45</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Biologia</Text>

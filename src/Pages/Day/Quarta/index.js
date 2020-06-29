@@ -31,7 +31,7 @@ export default function Quarta() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Língua Inglesa</Text>
             <Text style={styles.lessonDate}>11:20 - 12:05</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Matemática</Text>

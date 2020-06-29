@@ -11,12 +11,12 @@ export default function Segunda() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Fund. e Man. de Computadores</Text>
             <Text style={styles.lessonDate}>08:00 - 08:45</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Fund. e Man. de Computadores</Text>
             <Text style={styles.lessonDate}>08:45 - 09:30</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Língua Portuguesa</Text>
@@ -31,12 +31,12 @@ export default function Segunda() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Filosofia</Text>
             <Text style={styles.lessonDate}>11:20 - 12:05</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Química</Text>
             <Text style={styles.lessonDate}>13:15 - 14:00</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Química</Text>

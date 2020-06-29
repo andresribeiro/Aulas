@@ -11,12 +11,12 @@ export default function Terca() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Geografia</Text>
             <Text style={styles.lessonDate}>08:00 - 08:45</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Geografia</Text>
             <Text style={styles.lessonDate}>08:45 - 09:30</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
+            <Text style={styles.lessonType}>Síncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Língua Portuguesa</Text>
@@ -41,7 +41,7 @@ export default function Terca() {
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Lógica de Programação</Text>
             <Text style={styles.lessonDate}>14:00 - 14:45</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
+            <Text style={styles.lessonType}>Assíncrona</Text>
           </RectButton>
           <RectButton style={styles.lesson}>
             <Text style={styles.lessonName}>Informática Básica</Text>
