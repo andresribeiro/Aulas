@@ -1,58 +1,72 @@
 import React from 'react'
-import { View, Text, StyleSheet, ScrollView, SafeAreaView } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, SafeAreaView, FlatList } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
 
 export default function Segunda() {
+
+  const lessonsJson = [
+    {
+      name: "Fund. e Man. de Computadores",
+      date: "08:00 - 08:45",
+      type: "Síncrona",
+    },
+    {
+      name: "Fund. e Man. de Computadores",
+      date: "08:45 - 09:30",
+      type: "Síncrona",
+    },
+    {
+      name: "Língua Portuguesa",
+      date: "09:50 - 10:35",
+      type: "Síncrona",
+    },
+    {
+      name: "Língua Portuguesa",
+      date: "10:35 - 11:20",
+      type: "Síncrona",
+    },
+    {
+      name: "Filosofia",
+      date: "11:20 - 12:05",
+      type: "Síncrona",
+    },
+    {
+      name: "Química",
+      date: "13:15 - 14:00",
+      type: "Assíncrona",
+    },
+    {
+      name: "Química",
+      date: "14:00 - 14:45",
+      type: "Assíncrona",
+    },
+    {
+      name: "Web Design",
+      date: "15:00 - 15:45",
+      type: "Síncrona",
+    },
+    {
+      name: "Web Design",
+      date: "15:45 - 16:30",
+      type: "Síncrona",
+    },
+  ]
+
   return(
     <SafeAreaView>
       <ScrollView>
         <View style={styles.container} >
           <Text style={styles.dayText}>Segunda-feira</Text>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Fund. e Man. de Computadores</Text>
-            <Text style={styles.lessonDate}>08:00 - 08:45</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Fund. e Man. de Computadores</Text>
-            <Text style={styles.lessonDate}>08:45 - 09:30</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Língua Portuguesa</Text>
-            <Text style={styles.lessonDate}>09:50 - 10:35</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Língua Portuguesa</Text>
-            <Text style={styles.lessonDate}>10:35 - 11:20</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Filosofia</Text>
-            <Text style={styles.lessonDate}>11:20 - 12:05</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Química</Text>
-            <Text style={styles.lessonDate}>13:15 - 14:00</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Química</Text>
-            <Text style={styles.lessonDate}>14:00 - 14:45</Text>
-            <Text style={styles.lessonType}>Assíncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Web Design</Text>
-            <Text style={styles.lessonDate}>15:00 - 15:45</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
-          <RectButton style={styles.lesson}>
-            <Text style={styles.lessonName}>Web Design</Text>
-            <Text style={styles.lessonDate}>15:45 - 16:30</Text>
-            <Text style={styles.lessonType}>Síncrona</Text>
-          </RectButton>
+          <FlatList 
+            data={lessonsJson}
+            keyExtractor={item => item.id}
+            renderItem={( {item}) => <RectButton style={styles.lesson}>
+              <Text style={styles.lessonName}>{item.name}</Text>
+              <Text style={styles.lessonDate}>{item.date}</Text>
+              <Text style={styles.lessonType}>{item.type}</Text>
+            </RectButton>
+            }
+          />
         </View>
       </ScrollView>
     </SafeAreaView>
