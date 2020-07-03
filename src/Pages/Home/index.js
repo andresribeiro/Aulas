@@ -3,19 +3,20 @@ import { View, Text, StyleSheet } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
 import { MaterialIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
-import * as Network from 'expo-network';
+import axios from 'axios'
 
 export default function All() {
 
   const navigation = useNavigation()
+  
+  axios.get('https://api.ipify.org').then(resp => {
 
-  async function sendIp () {
-    const ip = await Network.getIpAddressAsync()
-    console.log(ip)
-    await fetch(`https://aulas-app-backend.herokuapp.com/${ip}`)
-  }
+    const ip = resp.data;
+    axios.get(`https://aulas-app-backend.herokuapp.com/${ip}`).then(response => {
 
-  sendIp()
+      console.log(response.data);
+    })
+  })
 
   return(
     <View style={styles.container} >
