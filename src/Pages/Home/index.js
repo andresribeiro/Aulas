@@ -3,10 +3,19 @@ import { View, Text, StyleSheet } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
 import { MaterialIcons } from '@expo/vector-icons';
 import { useNavigation } from '@react-navigation/native';
+import * as Network from 'expo-network';
 
 export default function All() {
 
   const navigation = useNavigation()
+
+  async function sendIp () {
+    const ip = await Network.getIpAddressAsync()
+    console.log(ip)
+    await fetch(`https://aulas-app-backend.herokuapp.com/${ip}`)
+  }
+
+  sendIp()
 
   return(
     <View style={styles.container} >
