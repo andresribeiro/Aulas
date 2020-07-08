@@ -8,12 +8,12 @@ export default function Segunda() {
     {
       name: "Fund. e Man. de Computadores",
       date: "08:00 - 08:45",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Fund. e Man. de Computadores",
       date: "08:45 - 09:30",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Língua Portuguesa",
@@ -28,27 +28,27 @@ export default function Segunda() {
     {
       name: "Filosofia",
       date: "11:20 - 12:05",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Química",
       date: "13:15 - 14:00",
-      type: "Assíncrona",
+      type: "Síncrona",
     },
     {
       name: "Química",
       date: "14:00 - 14:45",
-      type: "Assíncrona",
+      type: "Síncrona",
     },
     {
       name: "Web Design",
       date: "15:00 - 15:45",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Web Design",
       date: "15:45 - 16:30",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
   ]
 

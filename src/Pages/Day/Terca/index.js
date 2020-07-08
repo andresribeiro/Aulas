@@ -8,12 +8,12 @@ export default function Terca() {
     {
       name: "Geografia",
       date: "08:00 - 08:45",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Geografia",
       date: "08:45 - 09:30",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Língua Portuguesa",
@@ -28,7 +28,7 @@ export default function Terca() {
     {
       name: "Matemática",
       date: "11:20 - 12:05",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
     {
       name: "Lógica de Programação",
@@ -38,12 +38,12 @@ export default function Terca() {
     {
       name: "Lógica de Programação",
       date: "14:00 - 14:45",
-      type: "Assíncrona",
+      type: "Síncrona",
     },
     {
       name: "Informática Básica",
       date: "15:00 - 15:45",
-      type: "Síncrona",
+      type: "Assíncrona",
     },
   ]
 
