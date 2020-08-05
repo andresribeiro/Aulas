@@ -8,7 +8,7 @@ export default function Quarta() {
     {
       name: "Física",
       date: "08:00 - 08:45",
-      type: "Assíncrona",
+      type: "Síncrona",
     },
     {
       name: "Física",
@@ -18,7 +18,7 @@ export default function Quarta() {
     {
       name: "Química",
       date: "09:50 - 10:35",
-      type: "Assíncrona",
+      type: "Síncrona",
     },
     {
       name: "Língua Inglesa",
@@ -28,7 +28,7 @@ export default function Quarta() {
     {
       name: "Língua Inglesa",
       date: "11:20 - 12:05",
-      type: "Assíncrona",
+      type: "Síncrona",
     },
     {
       name: "Matemática",
@@ -42,15 +42,15 @@ export default function Quarta() {
     },
   ]
 
-  return(
+  return (
     <SafeAreaView>
       <ScrollView>
         <View style={styles.container} >
           <Text style={styles.dayText}>Quarta-feira</Text>
-          <FlatList 
+          <FlatList
             data={lessonsJson}
             keyExtractor={item => item.id}
-            renderItem={( {item}) => <RectButton style={styles.lesson}>
+            renderItem={({ item }) => <RectButton style={styles.lesson}>
               <Text style={styles.lessonName}>{item.name}</Text>
               <Text style={styles.lessonDate}>{item.date}</Text>
               <Text style={styles.lessonType}>{item.type}</Text>
@@ -68,18 +68,18 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#F0F0F5',
+    backgroundColor: '#282A36',
     marginTop: 25,
     marginBottom: 20,
   },
   dayText: {
-    color: '#7159C1',
+    color: '#8e9abe',
     fontSize: 25,
     marginTop: 20,
     marginBottom: 10,
   },
   lesson: {
-    backgroundColor: '#7159C1',
+    backgroundColor: '#6272a4',
     width: 310,
     height: 73,
     alignItems: 'center',

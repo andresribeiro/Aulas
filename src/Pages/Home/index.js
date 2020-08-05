@@ -7,23 +7,23 @@ import { useNavigation } from '@react-navigation/native';
 export default function All() {
 
   const navigation = useNavigation()
-  
-  return(
+
+  return (
     <View style={styles.container} >
-    <MaterialIcons name="today" size={65} color="#7159C1" />
-      <RectButton style={styles.day} onPress={() => {navigation.navigate('Segunda')}} >
+      <MaterialIcons name="today" size={65} color="#8e9abe" />
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('Segunda') }} >
         <Text style={styles.dayText}>Segunda</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => {navigation.navigate('Terca')}} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('Terca') }} >
         <Text style={styles.dayText}>Terça</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => {navigation.navigate('Quarta')}} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('Quarta') }} >
         <Text style={styles.dayText}>Quarta</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => {navigation.navigate('Quinta')}} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('Quinta') }} >
         <Text style={styles.dayText}>Quinta</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => {navigation.navigate('Sexta')}} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('Sexta') }} >
         <Text style={styles.dayText}>Sexta</Text>
       </RectButton>
     </View>
@@ -35,14 +35,14 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#F0F0F5',
+    backgroundColor: '#282A36',
   },
   day: {
     justifyContent: 'center',
     alignItems: 'center',
     width: 300,
     height: 45,
-    backgroundColor: '#7159C1',
+    backgroundColor: '#6272a4',
     borderRadius: 4,
     marginTop: 20,
   },
