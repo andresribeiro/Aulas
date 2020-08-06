@@ -26,6 +26,7 @@ export default function All() {
       <RectButton style={styles.day} onPress={() => { navigation.navigate('Sexta') }} >
         <Text style={styles.dayText}>Sexta</Text>
       </RectButton>
+      <Text style={styles.week}>Horário referente à semana do dia 03/08 - 07/08</Text>
     </View>
   )
 }
@@ -49,5 +50,9 @@ const styles = StyleSheet.create({
   dayText: {
     color: '#F0F0F5',
     fontSize: 17,
+  },
+  week: {
+    color: '#F0F0F5',
+    marginTop: 20,
   },
 })
