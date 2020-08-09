@@ -11,22 +11,22 @@ export default function All() {
   return (
     <View style={styles.container} >
       <MaterialIcons name="today" size={65} color="#8e9abe" />
-      <RectButton style={styles.day} onPress={() => { navigation.navigate('Segunda') }} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('SemAulas') }} >
         <Text style={styles.dayText}>Segunda</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => { navigation.navigate('Terca') }} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('SemAulas') }} >
         <Text style={styles.dayText}>Terça</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => { navigation.navigate('Quarta') }} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('SemAulas') }} >
         <Text style={styles.dayText}>Quarta</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => { navigation.navigate('Quinta') }} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('SemAulas') }} >
         <Text style={styles.dayText}>Quinta</Text>
       </RectButton>
-      <RectButton style={styles.day} onPress={() => { navigation.navigate('Sexta') }} >
+      <RectButton style={styles.day} onPress={() => { navigation.navigate('SemAulas') }} >
         <Text style={styles.dayText}>Sexta</Text>
       </RectButton>
-      <Text style={styles.week}>Horário referente à semana do dia 03/08 - 07/08</Text>
+      <Text style={styles.week}>Horário da semana do dia 10/08 - 14/08</Text>
     </View>
   )
 }

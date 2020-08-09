@@ -9,6 +9,8 @@ import Quarta from './Pages/Day/Quarta'
 import Quinta from './Pages/Day/Quinta'
 import Sexta from './Pages/Day/Sexta'
 
+import SemAulas from './Pages/SemAulas'
+
 const AppStack = createStackNavigator();
 
 const Routes = () => {
@@ -31,6 +33,7 @@ const Routes = () => {
         <AppStack.Screen name="Quarta" component={Quarta} />
         <AppStack.Screen name="Quinta" component={Quinta} />
         <AppStack.Screen name="Sexta" component={Sexta} />
+        <AppStack.Screen name="SemAulas" component={SemAulas} />
       </AppStack.Navigator>
     </NavigationContainer>
   );
