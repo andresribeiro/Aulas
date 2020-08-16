@@ -337,9 +337,12 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   img: {
+    width: 45,
     height: 45,
     resizeMode: 'contain',
-    borderRadius: 12,
+    borderRadius: 22,
+    marginTop: '1%',
+    marginLeft: '3%',
   },
   textView: {
     flex: 1,
