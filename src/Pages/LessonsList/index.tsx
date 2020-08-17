@@ -75,13 +75,13 @@ const tercaJson = [
     {
       name: "Geografia",
       date: "08:00 - 08:45",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "paula",
     },
     {
       name: "Geografia",
       date: "08:45 - 09:30",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "paula",
     },
     {
@@ -105,13 +105,13 @@ const tercaJson = [
     {
       name: "Lógica de Programação",
       date: "13:15 - 14:00",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "juliete",
     },
     {
       name: "Lógica de Programação",
       date: "14:00 - 14:45",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "juliete",
     },
     {
@@ -126,19 +126,19 @@ const quartaJson = [
     {
       name: "Física",
       date: "08:00 - 08:45",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "isabel",
     },
     {
       name: "Física",
       date: "08:45 - 09:30",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "isabel",
     },
     {
       name: "Química",
       date: "09:50 - 10:35",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "gilze",
     },
     {
@@ -195,7 +195,7 @@ const quintaJson = [
     {
       name: "Fund. e Man. de Computadores",
       date: "11:20 - 12:05",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "helaine",
     },
     {
@@ -213,7 +213,7 @@ const quintaJson = [
     {
       name: "Biologia",
       date: "15:00 - 15:45",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "martinez",
     },
   ]
@@ -234,19 +234,19 @@ const sextaJson = [
     {
       name: "Educação Física",
       date: "09:50 - 10:35",
-      type: "Assíncrona",
+      type: "Não sabemos",
       prof: "gusthavo",
     },
     {
       name: "Educação Física",
       date: "10:35 - 11:20",
-      type: "Assíncrona",
+      type: "Não sabemos",
       prof: "gusthavo",
     },
     {
       name: "Física",
       date: "11:20 - 12:05",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "isabel",
     },
   ]
