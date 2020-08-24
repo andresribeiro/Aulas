@@ -42,7 +42,7 @@ const segundaJson = [
     {
       name: "Filosofia",
       date: "11:20 - 12:05",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "joao uilson",
     },
     {
@@ -75,13 +75,13 @@ const tercaJson = [
     {
       name: "Geografia",
       date: "08:00 - 08:45",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "paula",
     },
     {
       name: "Geografia",
       date: "08:45 - 09:30",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "paula",
     },
     {
@@ -105,7 +105,7 @@ const tercaJson = [
     {
       name: "Lógica de Programação",
       date: "13:15 - 14:00",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "juliete",
     },
     {
@@ -132,25 +132,25 @@ const quartaJson = [
     {
       name: "Física",
       date: "08:45 - 09:30",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "isabel",
     },
     {
       name: "Química",
       date: "09:50 - 10:35",
-      type: "Assíncrona",
+      type: "Síncrona",
       prof: "gilze",
     },
     {
       name: "Língua Inglesa",
       date: "10:35 - 11:20",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "fernanda",
     },
     {
       name: "Língua Inglesa",
       date: "11:20 - 12:05",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "fernanda",
     },
     {
@@ -183,13 +183,13 @@ const quintaJson = [
     {
       name: "Sociologia",
       date: "09:50 - 10:35",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "joao uilson",
     },
     {
       name: "Fund. e Man. de Computadores",
       date: "10:35 - 11:20",
-      type: "Síncrona",
+      type: "Assíncrona",
       prof: "helaine",
     },
     {
@@ -234,13 +234,13 @@ const sextaJson = [
     {
       name: "Educação Física",
       date: "09:50 - 10:35",
-      type: "Não sabemos",
+      type: "Síncrona",
       prof: "gusthavo",
     },
     {
       name: "Educação Física",
       date: "10:35 - 11:20",
-      type: "Não sabemos",
+      type: "Síncrona",
       prof: "gusthavo",
     },
     {
