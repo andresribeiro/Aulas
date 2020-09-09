@@ -126,7 +126,7 @@ const quartaJson = [
   {
     name: "Física",
     date: "08:00 - 08:45",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "isabel",
   },
   {
@@ -138,13 +138,13 @@ const quartaJson = [
   {
     name: "Química",
     date: "09:50 - 10:35",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "gilze",
   },
   {
     name: "Língua Inglesa",
     date: "10:35 - 11:20",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "fernanda",
   },
   {
@@ -183,7 +183,7 @@ const quintaJson = [
   {
     name: "Sociologia",
     date: "09:50 - 10:35",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "joao uilson",
   },
   {
@@ -201,13 +201,13 @@ const quintaJson = [
   {
     name: "História",
     date: "13:15 - 14:00",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "paula",
   },
   {
     name: "História",
     date: "14:00 - 14:45",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "paula",
   },
   {
@@ -222,13 +222,13 @@ const sextaJson = [
   {
     name: "Biologia",
     date: "08:00 - 08:45",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "martinez",
   },
   {
     name: "Biologia",
     date: "08:45 - 09:30",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "martinez",
   },
   {
