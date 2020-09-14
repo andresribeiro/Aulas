@@ -12,25 +12,25 @@ const Home = () => {
       <Text style={styles.title}>Escolha um dia para ver as aulas</Text>
       <View style={styles.daysContainer}>
 
-      <RectButton style={styles.dayButton} onPress={() => {navigation.navigate('LessonsList', {dayParam: 'Segunda'})}}>
-        <Text style={styles.dayText}>Segunda</Text>
-      </RectButton>
+        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Segunda' }) }}>
+          <Text style={styles.dayText}>Segunda</Text>
+        </RectButton>
 
-      <RectButton style={styles.dayButton} onPress={() => {navigation.navigate('LessonsList', { dayParam: 'Terça'})}}>
-        <Text style={styles.dayText}>Terça</Text>
-      </RectButton >
+        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Terça' }) }}>
+          <Text style={styles.dayText}>Terça</Text>
+        </RectButton >
 
-      <RectButton style={styles.dayButton} onPress={() => {navigation.navigate('LessonsList', { dayParam: 'Quarta'})}}>
-        <Text style={styles.dayText}>Quarta</Text>
-      </RectButton>
+        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quarta' }) }}>
+          <Text style={styles.dayText}>Quarta</Text>
+        </RectButton>
 
-      <RectButton style={styles.dayButton} onPress={() => {navigation.navigate('LessonsList', { dayParam: 'Quinta'})}}>
-        <Text style={styles.dayText}>Quinta</Text>
-      </RectButton>
+        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quinta' }) }}>
+          <Text style={styles.dayText}>Quinta</Text>
+        </RectButton>
 
-      <RectButton style={styles.dayButton} onPress={() => {navigation.navigate('LessonsList', {dayParam: 'Sexta'})}}>
-        <Text style={styles.dayText}>Sexta</Text>
-      </RectButton>
+        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Sexta' }) }}>
+          <Text style={styles.dayText}>Sexta</Text>
+        </RectButton>
 
       </View>
     </View>
