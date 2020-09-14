@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 import { useNavigation } from '@react-navigation/native';
-import { RectButton } from 'react-native-gesture-handler'
+import { RectButton } from 'react-native-gesture-handler';
 
 const Home = () => {
 
@@ -32,6 +32,9 @@ const Home = () => {
           <Text style={styles.dayText}>Sexta</Text>
         </RectButton>
 
+      </View>
+      <View style={styles.footer}>
+        <Text style={styles.week}>14/09 - 18/09</Text>
       </View>
     </View>
   )
@@ -68,6 +71,17 @@ const styles = StyleSheet.create({
   dayText: {
     color: '#F0F0F5',
     fontSize: 16,
+  },
+  footer: {
+    alignItems: 'center',
+  },
+  week: {
+    color: '#F0F0F5',
+    fontSize: 19,
+  },
+  download: {
+    color: '#F0F0F5',
+    fontSize: 19,
   },
 })
 
