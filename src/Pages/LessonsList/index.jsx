@@ -42,7 +42,7 @@ const segundaJson = [
   {
     name: "Filosofia",
     date: "11:20 - 12:05",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "joao uilson",
   },
   {
@@ -111,7 +111,7 @@ const tercaJson = [
   {
     name: "Lógica de Programação",
     date: "14:00 - 14:45",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "juliete",
   },
   {
@@ -126,13 +126,13 @@ const quartaJson = [
   {
     name: "Física",
     date: "08:00 - 08:45",
-    type: "Não informado",
+    type: "Síncrona",
     prof: "isabel",
   },
   {
     name: "Física",
     date: "08:45 - 09:30",
-    type: "Não informado",
+    type: "Síncrona",
     prof: "isabel",
   },
   {
@@ -150,7 +150,7 @@ const quartaJson = [
   {
     name: "Língua Inglesa",
     date: "11:20 - 12:05",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "fernanda",
   },
   {
@@ -183,19 +183,19 @@ const quintaJson = [
   {
     name: "Sociologia",
     date: "09:50 - 10:35",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "joao uilson",
   },
   {
     name: "Fund. e Man. de Computadores",
     date: "10:35 - 11:20",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "helaine",
   },
   {
     name: "Fund. e Man. de Computadores",
     date: "11:20 - 12:05",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "helaine",
   },
   {
@@ -213,7 +213,7 @@ const quintaJson = [
   {
     name: "Biologia",
     date: "15:00 - 15:45",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "martinez",
   },
 ]
@@ -222,31 +222,31 @@ const sextaJson = [
   {
     name: "Biologia",
     date: "08:00 - 08:45",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "martinez",
   },
   {
     name: "Biologia",
     date: "08:45 - 09:30",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "martinez",
   },
   {
     name: "Educação Física",
     date: "09:50 - 10:35",
-    type: "Não informado",
+    type: "Síncrona",
     prof: "gusthavo",
   },
   {
     name: "Educação Física",
     date: "10:35 - 11:20",
-    type: "Não informado",
+    type: "Síncrona",
     prof: "gusthavo",
   },
   {
     name: "Física",
     date: "11:20 - 12:05",
-    type: "Não informado",
+    type: "Assíncrona",
     prof: "isabel",
   },
 ]

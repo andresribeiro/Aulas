@@ -34,7 +34,7 @@ const Home = () => {
 
       </View>
       <View style={styles.footer}>
-        <Text style={styles.week}>21/09 - 25/09</Text>
+        <Text style={styles.week}>28/09 - 02/10</Text>
       </View>
     </View>
   )
