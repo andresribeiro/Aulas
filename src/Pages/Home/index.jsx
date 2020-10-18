@@ -1,7 +1,6 @@
 import React from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native'
 import { useNavigation } from '@react-navigation/native';
-import { RectButton } from 'react-native-gesture-handler';
 
 const Home = () => {
 
@@ -12,25 +11,25 @@ const Home = () => {
       <Text style={styles.title}>Escolha um dia para ver as aulas</Text>
       <View style={styles.daysContainer}>
 
-        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Segunda' }) }}>
+        <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Segunda' }) }}>
           <Text style={styles.dayText}>Segunda</Text>
-        </RectButton>
+        </TouchableOpacity>
 
-        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Terça' }) }}>
+        <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Terça' }) }}>
           <Text style={styles.dayText}>Terça</Text>
-        </RectButton >
+        </TouchableOpacity >
 
-        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quarta' }) }}>
+        <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quarta' }) }}>
           <Text style={styles.dayText}>Quarta</Text>
-        </RectButton>
+        </TouchableOpacity>
 
-        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quinta' }) }}>
+        <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quinta' }) }}>
           <Text style={styles.dayText}>Quinta</Text>
-        </RectButton>
-
-        <RectButton style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Sexta' }) }}>
+        </TouchableOpacity>
+ 
+        <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Sexta' }) }}>
           <Text style={styles.dayText}>Sexta</Text>
-        </RectButton>
+        </TouchableOpacity>
 
       </View>
       <View style={styles.footer}>
