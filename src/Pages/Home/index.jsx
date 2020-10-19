@@ -33,7 +33,7 @@ const Home = () => {
 
       </View>
       <View style={styles.footer}>
-        <Text style={styles.week}>28/09 - 02/10</Text>
+        <Text style={styles.week}>19/10 - 23/10</Text>
       </View>
     </View>
   )
