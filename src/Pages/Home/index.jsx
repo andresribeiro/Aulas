@@ -26,14 +26,14 @@ const Home = () => {
         <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Quinta' }) }}>
           <Text style={styles.dayText}>Quinta</Text>
         </TouchableOpacity>
- 
+
         <TouchableOpacity style={styles.dayButton} onPress={() => { navigation.navigate('LessonsList', { dayParam: 'Sexta' }) }}>
           <Text style={styles.dayText}>Sexta</Text>
         </TouchableOpacity>
 
       </View>
       <View style={styles.footer}>
-        <Text style={styles.week}>19/10 - 23/10</Text>
+        <Text style={styles.week}>26/10 - 30/10</Text>
       </View>
     </View>
   )

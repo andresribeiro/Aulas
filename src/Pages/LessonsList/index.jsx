@@ -42,7 +42,7 @@ const segundaJson = [
   {
     name: "Filosofia",
     date: "11:20 - 12:05",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "joao uilson",
   },
   {
@@ -54,7 +54,7 @@ const segundaJson = [
   {
     name: "Química",
     date: "14:00 - 14:45",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "gilze",
   },
   {
@@ -117,7 +117,7 @@ const tercaJson = [
   {
     name: "Informática Básica",
     date: "15:00 - 15:45",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "helaine",
   },
 ]
@@ -183,13 +183,13 @@ const quintaJson = [
   {
     name: "Sociologia",
     date: "09:50 - 10:35",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "joao uilson",
   },
   {
     name: "Fund. e Man. de Computadores",
     date: "10:35 - 11:20",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "helaine",
   },
   {
@@ -234,7 +234,7 @@ const sextaJson = [
   {
     name: "Educação Física",
     date: "09:50 - 10:35",
-    type: "Síncrona",
+    type: "Assíncrona",
     prof: "gusthavo",
   },
   {
@@ -246,7 +246,7 @@ const sextaJson = [
   {
     name: "Física",
     date: "11:20 - 12:05",
-    type: "Assíncrona",
+    type: "Síncrona",
     prof: "isabel",
   },
 ]
